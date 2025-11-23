@@ -81,8 +81,9 @@ npm install
 
 1. 在 [Supabase](https://supabase.com) 创建新项目
 2. 在 Supabase SQL Editor 中执行 `supabase/schema.sql` 和 `supabase/functions.sql`
-3. 获取项目的 URL 和 Anon Key
-4. 创建 `.env` 文件：
+3. （可选）执行 `supabase/sample-data.sql` 添加示例文章数据
+4. 获取项目的 URL 和 Anon Key
+5. 创建 `.env` 文件：
 
 ```env
 VITE_SUPABASE_URL=你的Supabase项目URL
